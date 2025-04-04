@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>حاسوبي السحابي - Cloud PC</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #1c1c1c;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    .container {
+      background: #2a2a2a;
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 700px;
+      margin: auto;
+      box-shadow: 0 0 30px rgba(0,0,0,0.6);
+    }
+    h1 {
+      color: #00ffd5;
+    }
+    button {
+      background: #00ffd5;
+      border: none;
+      padding: 15px 30px;
+      margin: 15px;
+      border-radius: 10px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #00bfa6;
+    }
+    .note {
+      margin-top: 20px;
+      font-size: 15px;
+      color: #ccc;
+    }
+    a {
+      color: #00ffd5;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>حاسوبي السحابي الشخصي 💻☁️</h1>
+    <p>اضغط على الأزرار لتشغيل جهاز سحابي قوي مجانًا</p>
+
+    <button onclick="window.open('https://console.cloud.google.com', '_blank')">🔋 تشغيل Cloud PC (Google Cloud)</button>
+
+    <button onclick="window.open('https://parsec.app/downloads', '_blank')">🎮 تحميل Parsec لتوصيل جهازك</button>
+
+    <button onclick="window.open('https://store.epicgames.com', '_blank')">🕹️ فتح Epic Games</button>
+
+    <button onclick="window.open('https://store.steampowered.com', '_blank')">🎮 فتح Steam</button>
+
+    <button onclick="window.open('https://fivem.net', '_blank')">🚓 تحميل FiveM</button>
+
+    <div class="note">
+      <p>💡 تحتاج فقط حساب Gmail جديد لتفعيل Google Cloud.</p>
+      <p>🚫 لا حاجة لبطاقة بنكية — تحقق فقط من بريدك الإلكتروني!</p>
+      <p>📺 شاهد الشرح الكامل هنا: <a href="https://www.youtube.com/results?search_query=google+cloud+pc+free+gaming">شرح فيديو YouTube</a></p>
+    </div>
+  </div>
+</body>
+</html>
